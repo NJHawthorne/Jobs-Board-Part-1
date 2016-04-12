@@ -9,6 +9,7 @@ import Navigation from './components/Navigation.js';
 import FilterBox from './components/FilterBox.js';
 import JobRow from './components/JobRow.js';
 import InfoBox from './components/InfoBox.js';
+import CompanyBox from './components/CompanyBox.js';
 
 // Looks like the imported module was a function, because here we're executing it!
 tiy();
@@ -17,3 +18,4 @@ ReactDOM.render(<Navigation />, document.querySelector('nav'));
 ReactDOM.render(<FilterBox />, document.querySelector('.filterbox'));
 ReactDOM.render(<JobRow />, document.querySelector('.jobrow'));
 ReactDOM.render(<InfoBox />, document.querySelector('.infobox'));
+ReactDOM.render(<CompanyBox />, document.querySelector('.companybox'));
